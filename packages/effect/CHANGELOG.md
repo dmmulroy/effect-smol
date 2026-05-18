@@ -1,5 +1,17 @@
 # effect
 
+## 4.0.0-beta.68
+
+### Minor Changes
+
+- [#2210](https://github.com/Effect-TS/effect-smol/pull/2210) [`af8267f`](https://github.com/Effect-TS/effect-smol/commit/af8267f2f3588c3fb611e9286f6f933f29ce1217) Thanks @tim-smart! - Add Stream.broadcastN for fixed-size stream broadcasts.
+
+### Patch Changes
+
+- [#2209](https://github.com/Effect-TS/effect-smol/pull/2209) [`6f38f07`](https://github.com/Effect-TS/effect-smol/commit/6f38f07d5941a211b251383aaab0f4f55e8a6557) Thanks @tim-smart! - Fix Channel.decodeText corrupting UTF-8 characters split across chunk boundaries.
+
+- [#2207](https://github.com/Effect-TS/effect-smol/pull/2207) [`aec9c40`](https://github.com/Effect-TS/effect-smol/commit/aec9c401a53db227f18bf5e0c84db7130ad862d6) Thanks @tim-smart! - rename Model.Generated to Model.GeneratedByDb
+
 ## 4.0.0-beta.67
 
 ### Patch Changes
